@@ -5,7 +5,13 @@ import { Component } from '@angular/core';
   // MATCH NAME!!
   selector: 'app-server',
   // RENDER ON TEMPLATE (HTML)
-  templateUrl: './server.component.html'
+  templateUrl: './server.component.html',
+  // FROM String
+  styles: [`
+    h3 {
+      color: dodgerblue;
+    }
+  `]
 })
 // MATCH NAME!!
 export class ServerComponent {

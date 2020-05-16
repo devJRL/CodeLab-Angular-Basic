@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
     <app-server></app-server>
     <app-server></app-server>
     `,
+  // FROM CSS
   styleUrls: ['./servers.component.css']
 })
 export class ServersComponent implements OnInit {
