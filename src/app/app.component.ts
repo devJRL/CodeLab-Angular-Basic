@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  // DETECT COMPONENT <>
+  // DETECT IN `index.html` FOR COMPONENT <app-root>
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']

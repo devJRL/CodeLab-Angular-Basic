@@ -8,5 +8,6 @@ if (environment.production) {
   enableProdMode();
 }
 
+// BOOTSTRAP FIRST COMPONENT!
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));

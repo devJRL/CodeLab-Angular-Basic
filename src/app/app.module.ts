@@ -6,14 +6,17 @@ import { AppComponent } from './app.component';
 
 
 @NgModule({
+  // LIBRARY FOR RENDERING
   imports: [
     BrowserModule,
     FormsModule
   ],
+  // COMPONENTS FOR RENDERING
   declarations: [
     AppComponent
   ],
   providers: [],
+  // RENDERING FROM IGINITION COMPONENT
   bootstrap: [AppComponent]
 })
 export class AppModule { }
