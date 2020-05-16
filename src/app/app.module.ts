@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms'
 
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
+import { ServersComponent } from './servers/servers.component';
 
 // DECORATE WITH "NgModule"
 @NgModule({
@@ -13,9 +14,11 @@ import { ServerComponent } from './server/server.component';
     FormsModule
   ],
   // COMPONENTS IN Module
+  // `ng generate component {component-name}`
   declarations: [
     AppComponent,
-    ServerComponent // ADD TO RENDER!!
+    ServerComponent,
+    ServersComponent
   ],
   //  
   providers: [],
