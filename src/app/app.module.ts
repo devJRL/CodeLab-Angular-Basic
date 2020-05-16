@@ -3,20 +3,25 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms'
 
 import { AppComponent } from './app.component';
+import { ServerComponent } from './server/server.component';
 
-
+// DECORATE WITH "NgModule"
 @NgModule({
-  // LIBRARY FOR RENDERING
+  // LIBRARY FOR Module
   imports: [
     BrowserModule,
     FormsModule
   ],
-  // COMPONENTS FOR RENDERING
+  // COMPONENTS IN Module
   declarations: [
-    AppComponent
+    AppComponent,
+    ServerComponent // ADD TO RENDER!!
   ],
+  //  
   providers: [],
-  // RENDERING FROM IGINITION COMPONENT
+  // IGINITION COMPONENT
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  // DECORATE WITH EMPTY "AppModule class"!!
+}
