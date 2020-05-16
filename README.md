@@ -33,3 +33,35 @@ ng new {project-name}
 # RUN ANGULAR WITH COMPLING
 cd {project-name} && ng serve
 ```
+
+## Commands
+
+### Add Bootstrap in project
+
+Install with npm
+
+```bash
+# --save : install locally (not globally)
+npm install --save bootstrap@3
+```
+
+**Involve module when build** using add below to "angular.json"
+
+```json
+{
+  // ...
+  "project": {
+    // ...
+    "architect": {
+      // ...
+      "build": {
+        // ...
+          "styles": [
+            "node_modules/bootstrap/dist/css/bootstrap.min.css",
+            "src/styles.css"
+          ],
+      }
+    }
+  }
+}
+```
