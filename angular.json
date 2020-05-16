@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "CodeLab-Angular"
+    }
+  },
+  "defaultProject": "CodeLab-Angular",
+  "cli": {
+    "analytics": false
+  }
 }
