@@ -16,4 +16,10 @@ import { Component } from '@angular/core';
 // MATCH NAME!!
 export class ServerComponent {
 
+  serverId: number = 10;
+  serverStatus: String = 'offline';
+
+  getServerStatus() {
+    return this.serverStatus;
+  }
 }
