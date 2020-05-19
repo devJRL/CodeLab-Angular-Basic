@@ -1,2 +1,7 @@
 <h3>Hello, ServerComponent!</h3>
 <p>{{ 'Server' }} with ID {{ serverId }} is {{ getServerStatus() }}</p>
+<hr>
+<p [ngStyle]="{backgroundColor: getColor()}"
+   [ngClass]="{online: serverStatus === 'online'}">
+  JavaScript Object with Key-Value
+</p>
